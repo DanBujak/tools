@@ -1,0 +1,28 @@
+[global_config]
+  title_font = Nimbus Mono L 9
+  title_use_system_font = False
+[keybindings]
+  cycle_next = <Primary>Right
+  cycle_prev = <Primary>Left
+  new_window = <Primary><Shift>j
+  next_tab = <Primary><Shift>Right
+  prev_tab = <Primary><Shift>Left
+  split_horiz = <Primary><Alt>minus
+  split_vert = <Primary><Alt>backslash
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    cursor_color = "#ffffff"
+    font = Nimbus Mono L 9
+    foreground_color = "#ffffff"
+    scrollback_lines = 5000
+    use_system_font = False
